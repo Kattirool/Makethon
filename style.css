@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+body {
+
+    
+    color: white;
+}
+
+.header{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px  10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+font-size: 25px;
+color: rgb(237, 171, 171);
+text-decoration: none;
+font-weight: 500;
+
+}
+
+.navbar a{
+
+    font-size: 16px;
+    color:rgb(237, 171, 171);
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 35px;
+
+
+}
+.navbar a:hover,
+.navbar a.active {
+    color: lavender;
+    transition: .5s;
+}
+
+.home{
+
+    height: 100vh;
+    background: url(bck.jpg);
+    background-size: cover ;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content{
+
+    background-color: rgb(112, 112, 230)violet;
+    max-width: 600px;
+
+}
+.home-content h1 {
+
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.home-content h3{
+
+    font-size: 30px;
+    font-weight: 600px;
+    color:rgb(70, 70, 241);
+
+
+}
+.home-content p {
+
+    font-size: 1rem;
+    margin: 20px 0px 40px;
+    line-height: 1.2;
+}
+
+.home-content .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    height: 50px;
+    background: transparent;
+
+}
+
+.btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: rgb(70, 70, 241);
+    border: 2px solid rgb(70, 70, 241);
+    border-radius: 8px;
+    font-size: 18px;
+    color: rgb(37, 39, 53);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+   
+}
+
+
+.btn-box a:hover{
+
+    color: white;
+    transition: 0.5s;
+}
+
+.home-sci{
+
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+   
+    display: flex;
+    justify-content: space-between;
+
+}
+.home-sci a{
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(70, 70, 241);
+    border-radius: 50%;
+    font-size: 20px;
+    color:rgb(112, 112, 230);
+    text-decoration: none;
+
+}
+
+.home-sci a:hover{
+
+    color: white;
+    transition: 0.5s;
+}
